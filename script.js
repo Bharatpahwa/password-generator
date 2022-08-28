@@ -53,7 +53,7 @@ generate.addEventListener("click", function () {
     copyButton.style.display = "none";
     copied.style.display = "block";
     navigator.clipboard.writeText(passcode).then(() => {
-      alert("Copied to clipboard");
+//       alert("Copied to clipboard");
     });
   });
 });
