@@ -69,4 +69,5 @@ generated.addEventListener("click", function () {
   generate.style.display = "block";
   copied.style.display = "none";
   copyButton.style.display = "none";
+  code =[];
 });
